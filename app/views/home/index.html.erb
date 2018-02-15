@@ -1,0 +1,22 @@
+<div class="container" align="center">
+<h1>Chercher la valeur de votre monnaie</h1>
+</br>
+<p>Tapez une monnaie, sinon essayé avec ces exemples : Bitcoin, Ethereum, Ripple, Litecoin, Cardano, Stellar...</p>
+<br>
+<%= form_for :currency do |f| %>
+
+
+  <div class="field">
+    <%= f.label :Which_currency %><br />
+    <%= f.text_area :content, autofocus: true %>
+  </div>
+<br>
+  <div class: "btn-custom">
+    <%= f.submit "Chercher monnaie" %>
+  </div>
+  <br>
+<% end %>
+
+
+
+</div>
