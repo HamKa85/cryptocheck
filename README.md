@@ -1,3 +1,3 @@
 # Crypto check en local
 
-crash sur heroku, merci de tester en local : fonctionnel
+https://fierce-chamber-86377.herokuapp.com/
